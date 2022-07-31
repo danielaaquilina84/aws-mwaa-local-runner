@@ -17,6 +17,7 @@ export \
   AIRFLOW__CORE__EXECUTOR \
   AIRFLOW__CORE__FERNET_KEY \
   AIRFLOW__CORE__LOAD_EXAMPLES \
+  AIRFLOW_CONN_RATES_DB='postgres://cgrgzozk:ev_TbSxcdG-l2Ka0uFYXiBvL9tgXyPHo@kandula.db.elephantsql.com:5432/cgrgzozk'
 
 # Install custom python package if requirements.txt is present
 install_requirements() {
