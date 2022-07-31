@@ -21,7 +21,7 @@ services:
         environment:
             - LOAD_EX=n
             - EXECUTOR=Local
-            - AIRFLOW_CONN_RATES_DB=postgres://cgrgzozk:ev_TbSxcdG-l2Ka0uFYXiBvL9tgXyPHo@kandula.db.elephantsql.com/cgrgzozk
+            - AIRFLOW_CONN_RATES_DB='postgres://cgrgzozk:ev_TbSxcdG-l2Ka0uFYXiBvL9tgXyPHo@kandula.db.elephantsql.com/cgrgzozk'
         logging:
             options:
                 max-size: 10m
@@ -38,4 +38,5 @@ services:
             interval: 30s
             timeout: 30s
             retries: 3
+
 
