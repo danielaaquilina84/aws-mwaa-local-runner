@@ -28,7 +28,7 @@ services:
         volumes:
             - ${PWD}/dags:/usr/local/airflow/dags
             - ${PWD}/plugins:/usr/local/airflow/plugins
-            - ${PWD}/data:/usr/local/airflow/data
+            - ${PWD}/data:/usr/local/airflow/dags/data
         ports:
             - "8080:8080"
         command: local-runner
